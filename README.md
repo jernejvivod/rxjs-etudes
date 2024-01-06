@@ -1,6 +1,12 @@
 # RxJS Notes
 
+## Table of Contents
+
+- [Observable](#observable)
+- [Observer](#observer)
+
 ## Observable
+<a name="observable"></a>
 
 Observables are lazy Push collections of multiple values. They fill the missing spot in the following table:
 
@@ -132,6 +138,7 @@ const observable = new Observable(function subscribe(subscriber) {
 ```
 
 ## Observer
+<a name="observer"></a>
 
 An Observer is a consumer of values delivered by an Observable. Observers are simply a set of callbacks,
 one for each type of notification delivered by the Observable: next, error, and complete.
